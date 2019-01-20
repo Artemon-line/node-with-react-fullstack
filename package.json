@@ -1,0 +1,32 @@
+{
+  "name": "with-react-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "8.9.4",
+    "npm": "6.6.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artemon-line/node-with-react-fullstack.git"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "fullstack",
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artemon-line/node-with-react-fullstack/issues"
+  },
+  "homepage": "https://github.com/Artemon-line/node-with-react-fullstack#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
