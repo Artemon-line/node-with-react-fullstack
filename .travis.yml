@@ -14,7 +14,7 @@ cache:
 
 install:
   - npm install
-  - npm install --perfix client
+  - npm install --prefix client
   - npm run build --prefix client
 
 deploy:
