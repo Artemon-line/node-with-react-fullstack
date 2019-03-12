@@ -1,7 +1,6 @@
 language: node_js
 node_js:
   - '8'
-sudo: false
 
 branches:
   only:
@@ -14,8 +13,7 @@ cache:
 
 install:
   - npm install
-  - npm install --prefix client
-  - npm run build --prefix client
+  - NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client
 
 deploy:
   provider: heroku
