@@ -22,7 +22,7 @@ require('./routes/billingRoutes')(app);
 
 if (process.env.NODE_ENV === 'production') {
   // Express serve up prod files
-  app.unsubscribe(express.static('client/build'));
+  app.use(express.static('client/build'));
 
   // serve index.html
   const path = require('path');
