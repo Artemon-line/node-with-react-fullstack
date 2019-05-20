@@ -4,8 +4,11 @@ import { fetchSurveys } from '../../actions';
 
 class SurveyList extends Component {
   componentDidMount() {
-    this.props.fetchSurveys();
+    setInterval(() => {
+      this.props.fetchSurveys();
+    }, 3000);
   }
+
   renderSurveys() {
     return this.props.surveys.reverse().map(survey => {
       return (
@@ -18,7 +21,7 @@ class SurveyList extends Component {
             </p>
           </div>
           <div className="card-action">
-            <label>Yes: {survey.yes}</label>
+            <label>Yes: {survey.yes}</label>&nbsp;
             <label>No: {survey.no}</label>
           </div>
         </div>
