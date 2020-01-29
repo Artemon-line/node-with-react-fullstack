@@ -1,48 +1,48 @@
 {
-  "name": "with-react-fullstack",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "engines": {
-    "node": "8.9.4",
-    "npm": "6.6.0"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js",
-    "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "webhook": "lt -p 5000 -s eqkmx0qjxk"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Artemon-line/node-with-react-fullstack.git"
-  },
-  "keywords": [
-    "node",
-    "react",
-    "fullstack",
-    "test"
-  ],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Artemon-line/node-with-react-fullstack/issues"
-  },
-  "homepage": "https://github.com/Artemon-line/node-with-react-fullstack#readme",
-  "dependencies": {
-    "@sendgrid/mail": "^6.3.1",
-    "body-parser": "^1.18.3",
-    "concurrently": "^4.1.0",
-    "cookie-session": "^2.0.0-beta.3",
-    "express": "^4.16.4",
-    "localtunnel": "^1.9.1",
-    "lodash": "^4.17.11",
-    "mongoose": "^5.4.6",
-    "nodemon": "^1.18.9",
-    "passport": "^0.4.0",
-    "passport-google-oauth20": "^1.0.0",
-    "path-parser": "^4.2.0",
-    "stripe": "^2.6.3"
-  }
+    "name": "with-react-fullstack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "engines": {
+        "node": "8.9.4",
+        "npm": "6.6.0"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "server": "nodemon index.js",
+        "client": "npm run start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "webhook": "lt -p 5000 -s eqkmx0qjxk"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Artemon-line/node-with-react-fullstack.git"
+    },
+    "keywords": [
+        "node",
+        "react",
+        "fullstack",
+        "test"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Artemon-line/node-with-react-fullstack/issues"
+    },
+    "homepage": "https://github.com/Artemon-line/node-with-react-fullstack#readme",
+    "dependencies": {
+        "@sendgrid/mail": "^6.3.1",
+        "body-parser": "^1.18.3",
+        "concurrently": "^4.1.0",
+        "cookie-session": "^2.0.0-beta.3",
+        "express": "^4.16.4",
+        "localtunnel": "^1.9.1",
+        "lodash": "^4.17.12",
+        "mongoose": "^5.8.10",
+        "nodemon": "^1.18.9",
+        "passport": "^0.4.0",
+        "passport-google-oauth20": "^1.0.0",
+        "path-parser": "^4.2.0",
+        "stripe": "^2.6.3"
+    }
 }
