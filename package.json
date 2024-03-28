@@ -35,7 +35,7 @@
         "body-parser": "^1.18.3",
         "concurrently": "^4.1.0",
         "cookie-session": "^2.0.0-beta.3",
-        "express": "^4.17.3",
+        "express": "^4.19.2",
         "localtunnel": "^2.0.2",
         "lodash": "^4.17.12",
         "mongoose": "^5.13.20",
